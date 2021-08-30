@@ -1,0 +1,55 @@
+.button_class{
+    border: 1px solid #ecebeb;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(119, 113, 113);
+}
+.button_class:hover{
+    background-color: green;
+    color: white;
+    border: none;
+    border: 1px solid transparent;
+
+}
+
+
+/* full box */
+.full_box{
+    padding: 30px 50px;
+    box-shadow: 1px 0px 24px 10px #c6c0c0;
+    margin: 20px 20px;
+    width: 578px;
+}
+/* full box end */
+
+/* heading */
+.heading h1{
+    font-size: 20px;
+    text-align: left;
+}
+/* heading */
+
+/* box_1_line */
+.box_1_line{
+    width: 1005;
+    height: 2px;
+    background-color: white;
+}
+/* box_1_line */
+
+
+
+/* box1_all_p */
+.box1_all_p p{
+    background-color: rgb(235, 230, 230);
+    padding: 10px 20px;
+}
+
+.box1_all_p{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 27px;
+}
+/* box1_all_p */

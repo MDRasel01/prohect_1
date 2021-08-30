@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<div class="full_box">
+    <div class="all_step_button">
+        <button class="b-btn button_class step1">Step1</button>
+        <button class="b-btn button_class step2">Step2</button>
+        <button class="b-btn button_class step3">Step3</button>
+        <button class="b-btn button_class step4">Step4</button>
+        <button class="b-btn button_class step5">Step5</button>
+        <button class="b-btn button_class step6">Step6</button>
+    </div>
+    <div class="full_box1" id="box_1">
+        <div class="full_box_details">
+
+            <div class="heading">
+                <h1>1. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_box2" id="box_2">
+        <div class="full_box_details">
+            <div class="heading">
+                <h1>2. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_box3" id="box_3">
+        <div class="full_box_details">
+            <div class="heading">
+                <h1>3. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_box4" id="box_4">
+        <div class="full_box_details">
+            <div class="heading">
+                <h1>4. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_box5" id="box_5">
+        <div class="full_box_details">
+            <div class="heading">
+                <h1>5. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full_box6" id="box_6">
+        <div class="full_box_details box6">
+            <div class="heading">
+                <h1>6. Type of property</h1>
+            </div>
+            <div class="box_1_line"></div> 
+            <div class="box1_all_p">
+                <p class="hunn">single family house</p>
+                <p class="iiiii">cando</p>
+                <p class="hunn">multifamily</p>
+                <p class="iiiii">townhouse</p>
+                <p class="hunn">moble home</p>
+                <p class="iiiii">not sure</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#box_1').show();
+        $('#box_2').hide();
+        $('#box_3').hide();
+        $('#box_4').hide();
+        $('#box_5').hide();
+        $('#box_6').hide();
+
+        $('.step1').click(function(){
+            $('#box_1').show();
+            $('#box_2').hide();
+            $('#box_3').hide();
+            $('#box_4').hide();
+            $('#box_5').hide();
+            $('#box_6').hide();
+        });
+
+        $('.step2').click(function(){
+            $('#box_1').hide();
+            $('#box_2').show();
+            $('#box_3').hide();
+            $('#box_4').hide();
+            $('#box_5').hide();
+            $('#box_6').hide();
+        });
+
+        $('.step3').click(function(){
+            $('#box_1').hide();
+            $('#box_2').hide();
+            $('#box_3').show();
+            $('#box_4').hide();
+            $('#box_5').hide();
+            $('#box_6').hide();
+        });
+
+        $('.step4').click(function(){
+            $('#box_1').hide();
+            $('#box_2').hide();
+            $('#box_3').hide();
+            $('#box_4').show();
+            $('#box_5').hide();
+            $('#box_6').hide();
+        });
+
+        $('.step5').click(function(){
+            $('#box_1').hide();
+            $('#box_2').hide();
+            $('#box_3').hide();
+            $('#box_4').hide();
+            $('#box_5').show();
+            $('#box_6').hide();
+        });
+
+        $('.step6').click(function(){
+            $('#box_1').hide();
+            $('#box_2').hide();
+            $('#box_3').hide();
+            $('#box_4').hide();
+            $('#box_5').hide();
+            $('#box_6').show();
+        });
+    });
+</script>
+
+
+</body>
+</html>
